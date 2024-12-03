@@ -1,7 +1,7 @@
 left_input = []
 right_input = []
 
-input = open("input.txt", "r")
+input = open("data/day_1_input.txt", "r")
 for line in input:
     line_input = line.strip().split()
     left_input.append(int(line_input[0]))
